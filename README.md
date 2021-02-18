@@ -4,6 +4,12 @@
 
 Config must be defined in `instance/config.py`. Copy `instance/config.example.py` to `instance/config.py` and edit it.
 
+## Installing dependencies
+
+```sh
+pip install -r requirements.txt
+```
+
 ## Running app
 
 To get app running run following command:
@@ -21,6 +27,10 @@ CREATE TABLE public.history (
     queried_at timestamp without time zone DEFAULT now()
 );
 ```
+
+## Artefacts
+
+`Insomnia_2021-02-18.json` is the exported file from [Insomnia][insomnia] that I used to test the API.
 
 ## Dependencies
 
@@ -47,3 +57,4 @@ To consume OpenWeatherMapAPI I used requests lib because of its simpler api than
 [sqlalchemy]: https://www.sqlalchemy.org/
 [flask-sqlalchemy]: https://flask-sqlalchemy.palletsprojects.com/en/2.x/
 [requests]: https://requests.readthedocs.io/en/master/
+[insomnia]: https://insomnia.rest/
