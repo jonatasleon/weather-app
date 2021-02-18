@@ -68,8 +68,8 @@ db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
-instance/
 !instance/config.example.py
+instance/
 .webassets-cache
 
 # Scrapy stuff:
